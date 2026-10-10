@@ -101,3 +101,4 @@ def _serialize_scheme_detail(scheme):
             for doc in scheme.required_documents
         ],
     }
+db_undefined_test      
