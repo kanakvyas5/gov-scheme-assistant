@@ -28,9 +28,9 @@ services:
       # itself", which has no MySQL server running in it.
       DB_HOST: mysql
       DB_PORT: 3306
-      DB_USER: ${MYSQL_USER}
-      DB_PASSWORD: ${MYSQL_PASSWORD}
-      DB_NAME: ${MYSQL_DATABASE}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
       SECRET_KEY: ${SECRET_KEY}
       GROQ_API_KEY: ${GROQ_API_KEY}
       FLASK_DEBUG: ${FLASK_DEBUG}
